@@ -1,3 +1,9 @@
+body {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	min-height:100vh;
+}
 .topo {
 	display:flex;
 	flex-direction:row;
@@ -15,40 +21,36 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	height:24px
+	height:240px;
 }
 .grade {
 	display:flex;
+	flex-grow:1;
 	flex-direction:row;
 	justify-content:space-between;
 	align-items:flex-start;
 	flex-wrap:wrap;
-	gap:12px;
-	height:380px;
+	gap:24px;
+	height:480px;
 	border:2px solid red;
 }
 .card {
 	flex:1 1 280px;
 }
 .rodape {
-	display:flex;
+	flex:1 1 0;
 	border:2px solid yellow;
-}
-.rodape li {
-	display:flex;
-	flex-direction:row;
-	height:40px;
-	border:2px solid blue;
-	gap:400px;
 }
 .fot {
 	display:flex;
 	flex-direction:row;
-	justify-content:space-between;
-	align-items:flex-start;
+	justify-content:flex-start;
+	gap:24px;
+	border:2px solid black;
 }
 .copyright {
 	display:flex;
-	justify:flex-end;
-	gap:400px;
+	justify-content:flex-end;
+	border:2px solid pink;
+	width:1300px;
 }
