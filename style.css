@@ -1,0 +1,54 @@
+.topo {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+}
+.menu {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	gap:24px;
+}
+.destaque {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:24px
+}
+.grade {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:flex-start;
+	flex-wrap:wrap;
+	gap:12px;
+	height:380px;
+	border:2px solid red;
+}
+.card {
+	flex:1 1 280px;
+}
+.rodape {
+	display:flex;
+	border:2px solid yellow;
+}
+.rodape li {
+	display:flex;
+	flex-direction:row;
+	height:40px;
+	border:2px solid blue;
+	gap:400px;
+}
+.fot {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:flex-start;
+}
+.copyright {
+	display:flex;
+	justify:flex-end;
+	gap:400px;
+}
